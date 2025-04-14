@@ -11,7 +11,7 @@ const { type } = require('os');
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
-mongoose.connect('mongodb://127.0.0.1:27017/Saidb').then(()=>{
+mongoose.connect('').then(()=>{
   console.log('mongodb connected')
 }).catch((err)=>{console.log('connection error:',err)});
 const userSchema=new mongoose.Schema({
