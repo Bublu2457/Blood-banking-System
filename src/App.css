@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+Link{
+  margin-right: 10px;
+}
+#titlebar{
+     height: 60px;
+     background-color: black;
+     color: aliceblue;
+     align-items:inherit;
+     display: flex;
+}
+#tilt{
+margin-top: -0px;
+margin-right: 100px;
+font-size: 40px;
+
+}
+a{
+    width: 100px;
+    margin-left: 5px;
+    margin-right: 100px;
+    margin-top: 20px;
+    color: rgb(202, 216, 216);
+    display: flex;
+}
+form{
+    width: 200px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 50px;
+    padding-right: 15px;
+    margin-top:160px;
+    margin-left: 500px;
+    background-color: rgb(4, 4, 4);
+
+}
+input{
+    margin-bottom: 10px;
+    border-radius: 3px;
+    text-align: center;
+}
+button{
+    width: 170px;
+    text-align: center;
+    cursor: pointer;
+    
+}
+p{
+    text-align: center;
+    margin-left: 100px;
+}
+#sign{
+    color: rgb(25, 49, 232);
+}
+#img1{
+    display: file;
+    width: 1250px;
+    height: 500px;
+}
+#welcome{
+    text-align: center;
+}
+#intro{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    text-align-last:auto;
+    
+}
+#city{
+    margin-right: 20px;
+}
